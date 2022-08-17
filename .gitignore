@@ -6,7 +6,6 @@
 # Folders
 _obj
 _test
-_scss
 
 # Architecture specific extensions/prefixes
 *.[568vq]
@@ -146,6 +145,7 @@ builds/**/images/*
 #*.mp4
 #*.png
 #*.jpeg
+#*.scss
 
 # security / ssl
 *.pem
