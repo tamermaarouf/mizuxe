@@ -43,7 +43,9 @@
           aria-controls="navbarCollapse"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        ><span class="navbar-toggler-icon"></span></button>
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -65,11 +67,66 @@
 
     <!-- NAVBAR END -->
     <!-- HOME SECTION -->
-    <header id="home-section">
-      <div class="primary-overlay">
-        
+    <header id="home-section" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-2 mt-5 pt-5">Do What Your Dream Off...</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit, error?
+              </p>
+              <a href="" class="btn btn-outline-secondary btn-lg text-white">
+                <i class="fas fa-arrow-right"></i>Read More...
+              </a>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img
+                src="img/book.png"
+                alt=""
+                class="img-fluid d-none d-lg-block"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </header>
+
+    <!-- END HOME-SECTION -->
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Name"
+              class="form-control form-control-lg mb-resp"
+            />
+          </div>
+          <div class="col-lg-4">
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter Email"
+              class="form-control form-control-lg mb-resp"
+            />
+          </div>
+          <div class="col-lg-4">
+            <button class="btn btn-primary btn-block btn-lg">
+              <i class="fas fa-envelope-open-o"></i>Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END NEWSLETTER -->
 
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
