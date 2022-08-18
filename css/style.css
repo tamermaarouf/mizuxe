@@ -32,10 +32,27 @@ body {
 #newsletter .col-lg-4 .btn-primary {
   background: #3292a6;
 }
+
+
 .info-header {
   width: 50%;
   margin: 0 auto;
 }
+
+#authors img{
+  margin-top: -50px;
+}
+
+#authors .card:hover{
+  background: #3292a6;
+  color: #fff;
+}
+
+#authors .fab:hover{
+  color: #FFF;
+}
+
+
 @media (max-width: 768px) {
   #home-section {
     min-height: 500px;
