@@ -136,6 +136,7 @@ _testmain.go
 
 #other
 node_modules/
+scss/
 bower_components/
 .tmp
 .sass-cache
